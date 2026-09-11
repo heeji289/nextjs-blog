@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480" role="img" aria-labelledby="title desc">
+  <title id="title">환경 변수 검증을 실행하는 두 시점</title>
+  <desc id="desc">빌드와 개발 서버의 설정 로딩 시 next.config.ts에서 빌드용 환경 변수를 검증합니다. Node 서버 시작 시 instrumentation.ts의 register에서 서버용 환경 변수를 검증합니다.</desc>
+  <rect width="800" height="480" rx="24" fill="#ffffff"/>
+  <g font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">
+    <g fill="#737373" font-size="24" font-weight="500">
+      <text x="56" y="76">설정 로딩 · build / dev</text>
+      <text x="56" y="290">Node 서버 시작</text>
+    </g>
+    <rect x="56" y="102" width="300" height="108" rx="18" fill="#fafafa"/>
+    <rect x="464" y="102" width="280" height="108" rx="18" fill="#f0f0f0"/>
+    <rect x="56" y="316" width="300" height="108" rx="18" fill="#fafafa"/>
+    <rect x="464" y="316" width="280" height="108" rx="18" fill="#f0f0f0"/>
+    <g fill="none" stroke="#b5b5b5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M390 156 H430 M420 146 L430 156 420 166"/>
+      <path d="M390 370 H430 M420 360 L430 370 420 380"/>
+    </g>
+    <g text-anchor="middle" font-size="28" font-weight="600" fill="#404040">
+      <text x="206" y="166">next.config.ts</text>
+      <text x="206" y="394">register()</text>
+    </g>
+    <text x="206" y="354" text-anchor="middle" font-size="22" fill="#858585">instrumentation.ts</text>
+    <g text-anchor="middle" font-size="28" font-weight="600" fill="#525252">
+      <text x="604" y="166">빌드용 env 검증</text>
+      <text x="604" y="380">서버용 env 검증</text>
+    </g>
+  </g>
+</svg>
